@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/startRec"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_record"
+            android:layout_marginTop="18dp"
+            android:background="#FFFFFF"/>
+
+        <ImageButton
+            android:id="@+id/stopRec"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_stop"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="15dp"
+            android:background="#FFFFFF"/>
+
+        <ImageButton
+            android:id="@+id/btnExit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_exit"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="520dp"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="11dp">
+
+            <LinearLayout
+                android:id="@+id/whiteKeys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#000000">
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="0" />
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="2" />
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="4"/>
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="5" />
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="7" />
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="9" />
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="11" />
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="12" />
+
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="14" />
+
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="16" />
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="17" />
+
+                <Button
+                    android:layout_width="51dp"
+                    android:layout_height="275dp"
+                    android:background="@drawable/gradient"
+                    android:tag="19" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/blackKeys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="31dp">
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/minikeys"
+                    android:tag="1" />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="11dp"
+                    android:background="@drawable/minikeys"
+                    android:tag="3" />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="62dp"
+                    android:background="@drawable/minikeys"
+                    android:tag="6" />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="11dp"
+                    android:background="@drawable/minikeys"
+                    android:tag="8" />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="11dp"
+                    android:background="@drawable/minikeys"
+                    android:tag="10" />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="62dp"
+                    android:background="@drawable/minikeys"
+                    android:tag="13" />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="11dp"
+                    android:background="@drawable/minikeys"
+                    android:tag="15" />
+
+                <Button
+                    android:layout_width="40dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="62dp"
+                    android:background="@drawable/minikeys"
+                    android:tag="18" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
