@@ -1,5 +1,6 @@
-TinyPiano  
+##  [[TinyPiano]]
+A java piano keyboard app for an octave developed using Android Studio.
 
-Developed for assignment in Mobile Computing
-
-General Sir John Kotelawala Defence University 
+##  Tools Used
+Andriod Studio
+MidiDriver-1.20
